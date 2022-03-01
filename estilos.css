@@ -1,0 +1,70 @@
+
+
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    padding: 6px 0px;
+    
+}
+
+#contenedorWhite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    height: 98vh;
+    width: 95vh;
+    border-radius: 10px;
+}
+#tabla {
+    border-spacing: 0px 20px;
+}
+
+#title{
+    color: purple;
+    font-size: 52px;
+}
+
+#description{
+    font-weight: bold;
+    font-size: 20px;
+}
+td{
+    display: flex;
+}
+label{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+span{
+    color: purple;
+}
+input{
+border: 1px solid purple;
+border-radius: 5px;
+width: 600px;
+height: 40px;
+}
+
+#descripcion{
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+#obligatorio{
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#boton{
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
